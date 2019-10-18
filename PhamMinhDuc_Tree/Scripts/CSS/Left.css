@@ -1,0 +1,82 @@
+﻿/*Left*/
+aside#left{
+	width:240px;
+	vertical-align:top;
+}
+aside#left div.menu{
+	border:1px solid #206ab5;
+	border-radius:4px;
+	margin-bottom:10px;
+}
+aside#left>div a{
+    padding-left:10px;
+    font-size:14px;
+    font-family:Arial;
+
+}
+aside#left>div a:hover{
+    color:#ff0000;
+}
+aside#left>div table tr td{
+    height:25px;
+    padding-left:5px;
+}
+/*==============*/
+aside#left div.menu p{
+	background-color:#206ab5;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+aside#left div.menu ul{
+	padding-left:10px;
+	font-size:14px;
+	font-family:Arial;
+}
+aside#left div.menu ul li{
+	height:25px;
+	list-style-position:inside;
+	list-style-image:url(../Images/icon_list.jpg);
+	padding-left:5px;
+}
+aside#left div.menu ul li a{
+	color:#206ab5;
+	text-decoration:none;
+}
+aside#left div.menu ul li a:hover{
+	color:#ff0000;
+}
+.calendar{
+	border: 1px solid #206ab5;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+.calendar table{
+	width: 100%;
+}
+.calendar table tr td.monthyear
+{
+	background-color: #f60;
+	text-align: center;
+	font-size: 16px;
+	font-weight:  bold;
+	color: #fff;
+	border: 1px solid #666;
+}
+.calendar table tr.weektitle td
+{
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #666;
+	background-color: #ccf;
+}
+.calendar table  tr td.weekday
+{
+	text-align: center;
+	border: 1px solid #666;
+}

@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="_Layout.Master.cs" Inherits="PhamMinhDuc_Tree.SiteMaster" %>
+
+<%@ Register Src="~/UC/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
+<%@ Register Src="~/UC/ucRight.ascx" TagPrefix="uc1" TagName="ucRight" %>
+<%@ Register Src="~/UC/ucLeft.ascx" TagPrefix="uc1" TagName="ucLeft" %>
+<%@ Register Src="~/UC/ucHeader.ascx" TagPrefix="uc1" TagName="ucHeader" %>
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <link href="Scripts/CSS/Style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Nhà Sách ABC</title>
+</head>
+
+<body>
+    <form runat="server">
+        <!--ucHeader-->
+        <uc1:ucHeader runat="server" id="ucHeader" />
+        <!--End Header-->
+        <div id="body">
+            <img src="Images/Slider.jpg">
+            <article>
+                <!--ucLeft-->
+                <uc1:ucLeft runat="server" id="ucLeft" />
+                <!--End Left-->
+                <section>
+                    <p>Sách mới</p>
+                    <div class="sach">
+                        <p class="tensach"><a href="Chitietsanpham.html">Hướng dẫn tự học Photoshop CS(Photoshop 6.0)</a></p>
+                        <img class="hinhsach" src="Images/Sach/TH005.jpg">
+                        <p class="dongia">Đơn giá:<span class="gia"> 50.000 VNĐ</span></p>
+                        <a href="#">
+                            <img class="nutchonmua" src="Images/nut_chonmua.gif"></a>
+                    </div>
+                    <div class="sach">
+                        <p class="tensach"><a href="Chitietsanpham.html">Thủ Thuật Lập Trình Visual Basic 6</a></p>
+                        <img class="hinhsach" src="Images/Sach/TH008.jpg">
+                        <p class="dongia">Đơn giá:<span class="gia"> 50.000 VNĐ</span></p>
+                        <a href="#">
+                            <img class="nutchonmua" src="Images/nut_chonmua.gif"></a>
+                    </div>
+                    <div class="sach">
+                        <p class="tensach"><a href="Chitietsanpham.html">Quản Lý Chiến Lược</a></p>
+                        <img class="hinhsach" src="Images/Sach/KT0003.jpg">
+                        <p class="dongia">Đơn giá:<span class="gia"> 100.000 VNĐ</span></p>
+                        <a href="#">
+                            <img class="nutchonmua" src="Images/nut_chonmua.gif"></a>
+                    </div>
+                    <div class="sach">
+                        <p class="tensach"><a href="Chitietsanpham.html">Căn Bản Về Photoshop CS Tinh Chỉnh Và Xử Lý Màu</a></p>
+                        <img class="hinhsach" src="Images/Sach/TH002.jpg">
+                        <p class="dongia">Đơn giá:<span class="gia"> 100.000 VNĐ</span></p>
+                        <a href="#">
+                            <img class="nutchonmua" src="Images/nut_chonmua.gif"></a>
+                    </div>
+                    <div class="sach">
+                        <p class="tensach"><a href="Chitietsanpham.html">Visual Bacsic 2005 Tập 3, Quyển 2: Lập Trình Web</a></p>
+                        <img class="hinhsach" src="Images/Sach/LTWeb2005.jpg">
+                        <p class="dongia">Đơn giá:<span class="gia"> 50.000 VNĐ</span></p>
+                        <a href="#">
+                            <img class="nutchonmua" src="Images/nut_chonmua.gif"></a>
+                    </div>
+                    <div class="sach">
+                        <p class="tensach"><a href="Chitietsanpham.html">Giáo trình Tin học cơ bản</a></p>
+                        <img class="hinhsach" src="Images/Sach/THCB.jpg">
+                        <p class="dongia">Đơn giá:<span class="gia"> 26.000 VNĐ</span></p>
+                        <a href="#">
+                            <img class="nutchonmua" src="Images/nut_chonmua.gif"></a>
+                    </div>
+                </section>
+
+                <!--ucRight-->
+                <uc1:ucRight runat="server" id="ucRight" />
+                <!--End ucRight-->
+            </article>
+        </div>
+        <!--ucFooter-->
+        <uc1:ucFooter runat="server" id="ucFooter" />
+        <!--End ucFooter-->
+    </form>
+</body>
+
+</html>
